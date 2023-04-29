@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<style>
+  
+  @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Nunito:wght@200;300;400;600;700&display=swap');
+
+ .button {
+  font-family: 'Roboto';
+ }
+
+div.gallery {
+
+  border: 1px solid #161515;
+}
+
+div.gallery:hover {
+  border: 15px solid #712929;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  font-family: 'Aboreto', cursive;
+font-family: 'Nunito', sans-serif;
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  padding: 25px;
+  background-color: rgb(129, 107, 147);
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+  
+  <div class="background"></div>
+
+<h2>Brief Defination of the Project Amentl</h2>
+
+<h4>Group --1 </h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="Images/1.jpeg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">We are a presently having the largest population of youth and that is the bed-rock of our future
+      We are soon also going to have perhaps the largest population of the elderly and get the label of the Geriatric Nation.
+      
+      </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="Images/2.jpeg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">The AI based interactive robo will help the old age people to interact with the robo as our data collection and gathering we have decided that the old age people are more interested in learning new things like chess,carrom,using a mobile,knitting,drawing,reading book in their language</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="Images/3.jpeg">
+      <img src="Images/3.jpeg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Our work will help them in getting tutorials , basing drawing pics , suggest books that they will
+      Like to read and get to know how to do those things if they don't know anything about the particular topic 
+      </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="#">
+      <img src="images/4.jpeg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Also our project will help them arrange video calls or audio calls so that they could contact with the loved ones with just a simple command or button . we may develop our robo to interact with the people either by voice , or by a remote as making the robo learn new language and underdtand what the person wants to say might me difficult but would be easy as the old age people find it easy to work with a remote and a single click can do a lot more function .</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p></p>
+  <p>Brief about mental health making of the </p>
+</div>
+
+
+<button onclick="myFunction()"> Dark mode</button>
+
+<script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+</body>
+</html>
+
+
